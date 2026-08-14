@@ -1,0 +1,29 @@
+{
+  "source_dir": "/Users/dheeraj_macmini/Documents/Dheeraj/SAP-Validator-XML-main/data/source",
+  "target_dir": "/Users/dheeraj_macmini/Documents/Dheeraj/SAP-Validator-XML-main/data/target",
+  "pass_threshold": 100.0,
+  "selected_fields": [],
+  "manual_pairs": [
+    {
+      "name": "MATERIALS",
+      "source_file": "MATERIAL_SOURCE.xlsx",
+      "target_file": "MATERIAL_TARGET.xlsx"
+    },
+    {
+      "name": "MATERIALS1",
+      "source_file": "MATERIAL_SOURCE.xlsx",
+      "target_file": "MATERIAL_TARGET_corrected_20260814_161025.xlsx"
+    },
+    {
+      "name": "MATERIALS2",
+      "source_file": "MATERIAL_SOURCE.xlsx",
+      "target_file": "MATERIAL_TARGET_rag_corrected_20260814_163521.xlsx"
+    },
+    {
+      "name": "TEST",
+      "source_file": "SAP_Source_7500_Rows.xlsx",
+      "target_file": "SAP_Target_7000_Errors.xlsx"
+    }
+  ],
+  "active_template": ""
+}
